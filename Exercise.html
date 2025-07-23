@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Multiplication Practice</title>
+  <link rel="stylesheet" href="Eexercise.css" />
+</head>
+<body>
+  <div class="exercise-container">
+    <h1>Multiplication Practice</h1>
+
+    <div class="input-section">
+      <input type="number" id="tableNumber" min="1" max="12" placeholder="Enter table number (1–12)" />
+      <button onclick="generateTable()">Start Practice</button>
+    </div>
+
+    <div id="tableContainer" class="table-container">
+      <!-- Cards will be generated here -->
+    </div>
+
+    <button onclick="checkAnswers()" class="check-button">Check Answers</button>
+  </div>
+
+  <script src="Eexercise.js"></script>
+</body>
+</html>

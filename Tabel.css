@@ -1,0 +1,36 @@
+.multiplication-cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card {
+  background-color: #ffe0b2;
+  border: 2px solid #ffb74d;
+  border-radius: 15px;
+  padding: 15px 20px;
+  width: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+
+.card h2 {
+  text-align: center;
+  color: #8B4513;
+  margin-bottom: 10px;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.card ul li {
+  padding: 5px;
+  font-size: 16px;
+  color: #4e342e;
+  border-bottom: 1px dashed #ccc;
+}

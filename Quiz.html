@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Multiplication Quiz</title>
+  <link rel="stylesheet" href="Quiz.css" />
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>Multiplication Quiz</h1>
+    
+    <div class="question-box" id="questionBox">
+      <p id="questionText">Press Start to begin!</p>
+      <input type="number" id="userAnswer" placeholder="Your answer..." disabled />
+    </div>
+    
+    <div class="controls">
+      <button id="startBtn">Start Quiz</button>
+      <button id="nextBtn" disabled>Next</button>
+    </div>
+
+    <div class="score-box" id="scoreBox" style="display: none;">
+      <p>Your score: <span id="score"></span> / 10</p>
+      <button onclick="location.reload()">Try Again</button>
+    </div>
+  </div>
+
+  <script src="Quiz.js"></script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Cairo', sans-serif;
+  background-color: #fff8f0;
+  color: #5c4033;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  margin-bottom: 30px;
+  color: #8B4513;
+}
+
+.input-section {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.input-section input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  width: 200px;
+}
+
+.input-section button {
+  padding: 10px 15px;
+  background-color: #f8b551;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.input-section button:hover {
+  transform: scale(1.05);
+}
+
+.table-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  max-width: 400px;
+  align-items: flex-start;
+}
+
+/* Card Style */
+.card {
+  background-color: #ffe0b2;
+  border-radius: 10px;
+  padding: 5px 5px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  width: 100%;
+}
+
+.card:hover {
+  background-color: #ffcc80;
+  transform: scale(1.03);
+}
+
+.card input {
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Answer Feedback */
+.correct {
+  border: 2px solid green;
+  background-color: #e0ffe0;
+}
+
+.wrong {
+  border: 2px solid red;
+  background-color: #ffe0e0;
+}
+
+.check-button {
+  margin-top: 20px;
+  padding: 12px 20px;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.check-button:hover {
+  transform: scale(1.05);
+}
